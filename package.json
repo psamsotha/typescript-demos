@@ -1,0 +1,16 @@
+{
+  "name": "typescript-demos",
+  "version": "1.0.0",
+  "description": "Simple starter for practicing TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "./node_modules/.bin/tsc",
+    "tsc:win": "node_modules\\.bin\\tsc",
+    "tsc:watch": "./node_modules/.bin/tsc --watch",
+    "tsc:watch:win": "node_modules\\.bin\\tsc --watch"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^2.1.4"
+  }
+}
